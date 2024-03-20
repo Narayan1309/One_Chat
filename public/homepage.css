@@ -1,0 +1,55 @@
+body{
+    background-color: #B1E1FF;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 4rem;
+    font-family: 'DynaPuff', cursive;
+    color: #A66CFF;
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+.login-box{
+    margin: 0 25%;
+    border: 1px solid black;
+    box-shadow: 5px 10px 10px #9C9EFE;
+    background-color: #9C9EFE;
+    padding: 0;
+}
+.login{
+    border-bottom: 1px solid black;
+    background-color: #A66CFF;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 20%;
+    align-items: center;
+    justify-content: space-around;
+}
+label{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    margin: 5% 0;
+}
+input{
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+.btn{
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+    background-color: #A66CFF;
+    color: white;
+}
+.btn:hover{
+    box-shadow: 5px 10px 10px black;
+    color: black;
+}
