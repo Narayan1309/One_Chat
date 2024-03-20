@@ -1,0 +1,110 @@
+body{
+    background-color: #B1E1FF;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 4rem;
+    font-family: 'DynaPuff', cursive;
+    color: #A66CFF;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0;
+}
+.chat-box{
+    margin: 0 20%;
+    border: 1px solid black;
+    box-shadow: 5px 10px 10px #9C9EFE;
+    background-color: #9C9EFE;
+    padding: 0;
+}
+.chat-title{
+    font-size: 1.3rem;
+    border-bottom: 1px solid black;
+    background-color: #A66CFF;
+}
+.inner-chat-box{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.users{
+    border-right: 1px solid black;
+    padding: 5%;
+}
+.messagebox{
+    flex-grow: 1;
+}
+.messages{
+    flex-grow: 1;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    padding: 1% 3% 0 3%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+h2{
+    padding: 0;
+    border-right: 1px solid black;
+    font-size: 1rem;
+    padding: 0 2%;
+}
+.message{
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+p{
+    padding-left: 2%;
+}
+h4{
+    font-size: 1rem;
+    padding: 0;
+    margin: 0 0 4% 0;
+}
+h3{
+    margin: 10% 0;
+}
+.users{
+    padding: 1% 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+.send-message{
+    padding: 3%;
+    border-top: 1px solid black;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width: 70%;
+    margin-right: 3%;
+    border-radius: 5px;
+}
+button{
+    font-size: 1.2rem;
+    background-color: #A66CFF;
+    color: white;
+    border-radius: 5px;
+}
+button:hover{
+    box-shadow: 5px 10px 10px black;
+    color: black;
+}
